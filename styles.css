@@ -1,0 +1,81 @@
+/* #div1 */
+/* { */
+    /* height: 100%; */
+    /* border: 1px solid black; */
+    /* background-image: linear-gradient(120deg,blue,green,red); */
+
+    /* background-image:linear-gradient(to right/bottom right/ left, color1 %age, color2 %age,..); */
+
+    /* background-image:radial-gradient(circle,red 20%,green 40%,blue 40%); */
+
+ /* }  */
+
+/*
+ #div1{
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+
+ }*/
+
+ textarea{
+    resize: horizontal;
+    resize: vertical;
+    resize: none;
+    resize: both;
+    width: 500px;
+    height: 500px;
+ }
+
+ ul{
+    /* Ul is also a block element like div */
+    list-style-type: square;
+    list-style-position:inside;
+ }
+ li
+ {
+    /* Li is also a block element */
+    border: 1px solid black;
+ }
+
+ table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* border-collapse: separate; */
+    border-radius: 10px;
+    border-spacing: 15px;
+    empty-cells: hide;
+
+ }
+ caption
+ {
+    border: 1px solid black;
+    caption-side: bottom;
+ }
+
+ /* tr
+ {
+    border: 2px dotted red;
+   
+ } */
+ th
+ {
+    border: 3px dotted black;
+    /* border-collapse:collapse; we could not use it inside this element */
+    text-align: center;
+    padding: 5px;
+    /* margin: 4px;  margin could also not be used*/
+
+ }
+
+ td{
+    border: 1px solid black; 
+     /* margin: 4px;  margin could also not be used*/
+ /* border-collapse:collapse; we could not use it inside this element */
+ vertical-align: top;
+ }
